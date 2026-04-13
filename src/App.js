@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 
 import Sidebar from './components/sidebar/Sidebar';
@@ -12,7 +13,7 @@ import Education from './components/education/Education';
 
 
 function App() {
-    const [theme, setTheme] = 'light';
+    const [theme, setTheme] = useState('light');
 
     const switchTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light';
