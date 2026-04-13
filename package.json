@@ -2,7 +2,7 @@
   "name": "premnath-saravanan-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://premnath-sr.github.io/myPortfolio",
+  "homepage": "https://premnath-sa.github.io/myPortfolio",
   "author": "Premnath Saravanan",
   "contributors": [],
   "dependencies": {
@@ -49,6 +49,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
