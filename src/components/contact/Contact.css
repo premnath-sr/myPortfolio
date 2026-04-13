@@ -1,0 +1,35 @@
+.contact.section {
+  padding-bottom: 6.25rem;
+}
+
+.contact__socials {
+  display: flex;
+  align-items: center;
+  column-gap: 1.75rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 25px; 
+}
+
+
+@media screen and (max-width: 1024px) {
+  .contact__socials {
+    justify-content: center;
+    gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__socials {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact__socials {
+    justify-content: center;
+  }
+}

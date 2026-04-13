@@ -1,0 +1,61 @@
+.about__container {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Image takes only necessary space, text takes the rest */
+  column-gap: 1.875rem;
+  align-items: center;
+}
+
+.about__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+}
+
+.education__img {
+  width: 100px;
+  height: auto;
+}
+
+/* Specific class for Image 2 */
+.education__img--small {
+  width: 100px; /* Smaller size for Image 2 */
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 720px;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+
+  .about__img {
+    justify-self: center;
+    width: 1rem; /* Adjust based on your design */
+    height: 50%;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about__container {
+    grid-template-columns: 320px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+}
