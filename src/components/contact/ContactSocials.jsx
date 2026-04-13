@@ -10,7 +10,7 @@ const ContactSocials = () => {
                 <a href='https://www.linkedin.com/in/premnath-s' className='home__social-link' target='_blank' rel='noreferrer'>
                     <FaLinkedinIn className="social-icon" />
                 </a>
-                <a href='mailto:saravanan.pr@northeastern.edu' className='home__social-link' target='_blank' rel='noreferrer'>
+                <a href='mailto:premnath8397@gmail.com' className='home__social-link' target='_blank' rel='noreferrer'>
                     <FaEnvelope className="social-icon" />
                 </a>
                 <a href='#' className='home__social-link' target='_blank' rel='noreferrer'>

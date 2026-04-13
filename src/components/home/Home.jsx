@@ -12,10 +12,11 @@ const Home = () => {
             <div className="intro">
                 <img src={Me} alt="" className='home__img' width='350' />
                 <h1 className="home__name">Premnath Saravanan</h1>
-                <span className="home__education">Highly dedicated and passionate professional with a strong background in software development 
-                    and advanced expertise in computer engineering. Demonstrates meticulous attention to detail when multitasking, along with 
-                    sharp analytical skills to proactively identify and resolve issues. Keen on staying updated with the latest advancements in 
-                    engineering technology.</span>
+                <span className="home__education">
+                    Software Engineer @NetApp | MS in ECE - Computer Systems and Software | Former Embedded Software Developer @Nokia | Ex-Senior Software Engineer @Infosys.
+                    <br />
+                    | C/C++ • Linux • Drivers • Kernels • Python • Systems Software • Firmware |
+                </span>
                 <br />
                 <br />
 

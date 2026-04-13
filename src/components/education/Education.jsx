@@ -9,19 +9,17 @@ const Education = () => {
             <h2 className="section__title">Education </h2>
 
             <div className="about__container grid">
-                {/* <img src={Image1} alt="" className='about__img' /> */}
                 <img src={Image1} alt="Anna University" className="education__img education__img--small" />
-
                 <div className="about__data grid">
                     <div className="about__info">
                         <p>
-                        Master of Science in Electrical and Computer Engineering - Specialized in Computer Systems and Software .
+                        <strong>Master of Science in Electrical and Computer Engineering - Specialized in Computer Systems and Software.</strong>
                         </p>
                         <p>
-                        Northeastern University, Boston, MA.
+                        <strong>Northeastern University, Boston, MA.</strong>
                         </p>   
                         <p>
-                        December 2023.
+                        <strong>December 2023.</strong>
                         </p>  
                         <br/>  
                         <p>
@@ -39,13 +37,13 @@ const Education = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p>
-                        Bachelor of Engineering in Electrical and Electronics Engineering
+                        <strong>Bachelor of Engineering in Electrical and Electronics Engineering</strong>
                         </p>
                         <p>
-                        Anna University, Chennai, India
+                        <strong>Anna University, Chennai, India</strong>
                         </p>          
                         <p>
-                        May 2018.
+                        <strong>May 2018.</strong>
                         </p>   
                         <br/>  
                         <p>

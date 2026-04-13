@@ -125,7 +125,7 @@ img {
 }
 
 .section {
-  padding-top: 7rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
@@ -134,7 +134,7 @@ img {
   margin-left: 0.875rem;
   font-weight: var(--font-bold);
   position: relative;
-  margin-bottom: 3.75rem;
+  margin-bottom: 2rem;
 }
 
 .section__title::before {

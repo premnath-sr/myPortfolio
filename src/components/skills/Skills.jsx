@@ -12,7 +12,7 @@ import Image9 from '../../assets/rtos.png';
 import Image10 from '../../assets/mysql.svg';
 import Image11 from '../../assets/git.svg';
 import Image12 from '../../assets/scripting.png';
-import Image13 from '../../assets/docker.svg';
+import Image13 from '../../assets/debug.svg';
 
 const data = [
     {
@@ -78,7 +78,7 @@ const data = [
     {
         id: 13,
         image: Image13,
-        title: "Docker",
+        title: "Debugging & Performance Analysis",
     }
 ];
 
